@@ -1,4 +1,4 @@
-# Container-Scan-using-Snyk
+# Container Scan using Snyk
 
 Snyk is a security platform designed to help organizations find and fix vulnerabilities in their code, open-source dependencies, container images, and infrastructure as code (IaC).
 We will use Snyk to scan Docker images to identify vulnerabilities in this section. Hence, we need to install both Docker for Windows and Snyk CLI for Windows on the local machine. 
