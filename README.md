@@ -33,4 +33,18 @@ snyk-win.exe auth
    ```
    This will provide the scan results identifying all the vulnerabilities of the docker image and the alternative recommendations.
    
+**Clean-Up**
+To remove the vulnerable image from your local machine:
+1. Identify the docker image ID.
+   ```
+   docker images
+   ```
+   ![image](https://github.com/Catheren/Container-Scan-using-Snyk/assets/94724571/96b20444-36b1-4171-adf2-9f9560771aeb)
 
+2. Delete the docker image:
+   ```
+   docker rmi <image ID>
+   ```
+   ![image](https://github.com/Catheren/Container-Scan-using-Snyk/assets/94724571/da46c1f5-aa11-4a57-858e-35b0f92c8056)
+
+   
